@@ -1,0 +1,37 @@
+/* Correção para garantir que o Wide Bundle apareça no site ao vivo */
+/* Força a exibição dos app blocks independente de outros estilos */
+
+/* Força todos os app blocks a serem exibidos */
+[data-block-type="@app"],
+.shopify-app-block,
+app-block,
+#shopify-block-widebundle,
+[id*="widebundle"],
+[class*="wide-bundle"],
+[class*="widebundle"],
+[data-app-id],
+div[id^="shopify-block-"] {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  overflow: visible !important;
+  position: relative !important;
+}
+
+/* Garante que elementos próximos ao botão Releasit não sejam escondidos */
+#_rsi-buy-now-button ~ *,
+#_rsi-buy-now-button + *,
+[id*="_rsi"] ~ app-block,
+[id*="_rsi"] ~ [data-block-type="@app"],
+[id*="_rsi"] + [data-block-type="@app"] {
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* Força qualquer div que contenha app blocks a ser visível */
+div:has([data-block-type="@app"]),
+div:has(.shopify-app-block) {
+  display: block !important;
+  visibility: visible !important;
+}

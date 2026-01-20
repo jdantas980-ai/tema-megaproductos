@@ -85,6 +85,19 @@
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
+          <style>
+            /* Força a exibição do Wide Bundle e outros app blocks */
+            [data-block-type="@app"],
+            .shopify-app-block,
+            [id*="widebundle"],
+            [class*="wide-bundle"],
+            div[id^="shopify-block-"] {
+              display: block !important;
+              visibility: visible !important;
+              opacity: 1 !important;
+            }
+          </style>
+
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
