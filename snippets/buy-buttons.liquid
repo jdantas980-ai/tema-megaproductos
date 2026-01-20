@@ -1,0 +1,270 @@
+{% comment %}
+  Renders product buy-buttons.
+  Accepts:
+  - product: {Object} product object.
+  - block: {Object} passing the block information.
+  - product_form_id: {String}
+  - product_form_installment: {String}
+  - show_pickup_availability: {Boolean} for the pickup availability. If true the pickup availability is rendered, if false - not rendered (optional)
+
+  Usage:
+  {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, product_form_installment: product_form_installment, show_pickup_availability: true %}
+{% endcomment %}
+
+<style>
+.people-watching-enhanced {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  transform: translateY(10px);
+  animation: slideInUp 0.8s ease-out 0.3s forwards;
+}
+
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  background: #28a745;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+  flex-shrink: 0;
+}
+
+.people-count {
+  font-weight: 700;
+  font-size: 16px;
+  color: #dc3545;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.people-text {
+  font-weight: 600;
+  color: #495057;
+}
+
+.action-text {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.2); }
+}
+
+@keyframes slideInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .people-watching-enhanced {
+    font-size: 13px;
+    padding: 10px 14px;
+    gap: 6px;
+  }
+  
+  .people-count {
+    font-size: 14px;
+  }
+}
+</style>
+
+<div class="product-form__error-message-wrapper" role="alert" hidden>
+  <svg
+    aria-hidden="true"
+    focusable="false"
+    class="icon icon-error"
+    viewBox="0 0 13 13"
+  >
+    <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
+    <circle cx="6.5" cy="6.5" r="5.5" fill="#EB001B" stroke="#EB001B" stroke-width="0.7"/>
+    <path d="m5.87413 3.52832 5.6077 9.67092H0.826416l5.047793-9.67092Z" fill="#EB001B"/>
+    <path d="M5.87413 3.17832c0.08144-0.12284 0.24573-0.2 0.41587-0.2 0.17014 0 0.33443 0.07716 0.41587 0.2l5.6077 9.67092c0.0871 0.1313 0.0871 0.3022 0 0.4334C12.2218 13.2849 12.0575 13.3621 11.8873 13.3621H0.826416c-0.169741 0-0.334092-0.0772-0.415873-0.2086-0.0871-0.1312-0.0871-0.3021 0-0.4334L5.87413 3.17832Z" fill="#white" stroke="#EB001B" stroke-width="0.7"/>
+    <path d="m6.29496 5.66667c0.28747 0 0.52083 0.23336 0.52083 0.52083v1.04167c0 0.28747-0.23336 0.52083-0.52083 0.52083s-0.52083-0.23336-0.52083-0.52083V6.1875c0-0.28747 0.23336-0.52083 0.52083-0.52083Z" fill="white"/>
+    <path d="m6.29496 8.75c0.28747 0 0.52083 0.23336 0.52083 0.52083s-0.23336 0.52084-0.52083 0.52084-0.52083-0.23337-0.52083-0.52084 0.23336-0.52083 0.52083-0.52083Z" fill="white"/>
+  </svg>
+  <span class="product-form__error-message"></span>
+</div>
+
+<!-- Contador de pessoas visualizando o produto -->
+<div class="people-watching-enhanced">
+  <span class="status-indicator"></span>
+  <b><span class="people-count">42</span> <span class="people-text">personas</span></b> 
+  <span class="action-text">están viendo este producto</span>
+</div>
+
+<script>
+(function() {
+  'use strict';
+  
+  const config = {
+    minPeople: 15,
+    maxPeople: 89,
+    updateInterval: 8000,
+    animationDuration: 600,
+    texts: {
+      singular: 'persona',
+      plural: 'personas',
+      actions: [
+        'está viendo este producto',
+        'están viendo este producto',
+        'vieron este producto recientemente',
+        'están considerando este producto',
+        'tienen este producto en su carrito'
+      ]
+    }
+  };
+
+  let currentCount = Math.floor(Math.random() * (config.maxPeople - config.minPeople + 1)) + config.minPeople;
+  let isIncreasing = Math.random() > 0.5;
+  
+  const elements = {
+    count: document.querySelector('.people-count'),
+    text: document.querySelector('.people-text'),
+    action: document.querySelector('.action-text'),
+    indicator: document.querySelector('.status-indicator'),
+    container: document.querySelector('.people-watching-enhanced')
+  };
+
+  function getRandomAction() {
+    return config.texts.actions[Math.floor(Math.random() * config.texts.actions.length)];
+  }
+
+  function updateCounter() {
+    if (!elements.count || !elements.text || !elements.action) return;
+
+    const variation = Math.floor(Math.random() * 8) + 1;
+    const shouldChangeDirection = Math.random() < 0.3;
+    
+    if (shouldChangeDirection) {
+      isIncreasing = !isIncreasing;
+    }
+
+    if (isIncreasing) {
+      currentCount = Math.min(currentCount + variation, config.maxPeople);
+      if (currentCount >= config.maxPeople) isIncreasing = false;
+    } else {
+      currentCount = Math.max(currentCount - variation, config.minPeople);
+      if (currentCount <= config.minPeople) isIncreasing = true;
+    }
+
+    elements.container.style.transform = 'scale(0.95)';
+    elements.container.style.opacity = '0.7';
+
+    setTimeout(() => {
+      elements.count.textContent = currentCount;
+      elements.text.textContent = currentCount === 1 ? config.texts.singular : config.texts.plural;
+      elements.action.textContent = getRandomAction();
+      
+      elements.container.style.transform = 'scale(1)';
+      elements.container.style.opacity = '1';
+    }, config.animationDuration / 2);
+  }
+
+  function startCounter() {
+    if (elements.container) {
+      elements.container.style.opacity = '1';
+      elements.container.style.transform = 'translateY(0)';
+      
+      updateCounter();
+      setInterval(updateCounter, config.updateInterval);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', startCounter);
+  } else {
+    startCounter();
+  }
+})();
+</script>
+
+<div class="product-form__buttons">
+  {%- liquid
+    assign check_against_inventory = true
+    if product.selected_or_first_available_variant.inventory_management != 'shopify' or  product.selected_or_first_available_variant.inventory_policy == 'continue'
+      assign check_against_inventory = false
+    endif
+    if product.selected_or_first_available_variant.quantity_rule.min > product.selected_or_first_available_variant.inventory_quantity and check_against_inventory
+      assign quantity_rule_soldout = true
+    endif
+  -%}
+  <button
+    id = "ProductSubmitButton-{{ section_id }}"
+    type="submit"
+    name="add"
+    class="btn product-form__cart-submit{% if block.settings.show_dynamic_checkout %} btn--secondary{% else %} btn--primary{% endif %}{% if quantity_rule_soldout %} disabled{% endif %}"
+    {% if quantity_rule_soldout %}
+      aria-disabled="true"
+      disabled
+    {% endif %}
+  >
+    <span>
+      {%- if quantity_rule_soldout -%}
+        {{ 'products.product.inventory_out_of_stock' | t }}
+      {%- elsif product.selected_or_first_available_variant.available == false -%}
+        {{ 'products.product.sold_out' | t }}
+      {%- else -%}
+        {{ 'products.product.add_to_cart' | t }}
+      {%- endif -%}
+    </span>
+    <div class="loading-overlay__spinner hidden">
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        class="spinner"
+        viewBox="0 0 66 66"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+      </svg>
+    </div>
+  </button>
+  {%- if block.settings.show_dynamic_checkout -%}
+    {{ form | payment_button }}
+  {%- endif -%}
+</div>
+
+{%- if show_pickup_availability -%}
+  {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
+
+  {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
+
+  <pickup-availability
+    class="product__pickup-availabilities no-js-hidden quick-add-hidden"
+    {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %}
+      available
+    {% endif %}
+    data-root-url="{{ routes.root_url }}"
+    data-variant-id="{{ product.selected_or_first_available_variant.id }}"
+    data-has-only-default-variant="{{ product.has_only_default_variant }}"
+    data-product-page-color-scheme="{{ settings.color_schemes | first }}"
+  >
+    <template>
+      <pickup-availability-preview class="pickup-availability-preview">
+        {% render 'icon-unavailable' %}
+        <div class="pickup-availability-info">
+          <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}</p>
+          <button class="pickup-availability-button link link--text underlined-link">
+            {{ 'products.product.pickup_availability.refresh' | t }}
+          </button>
+        </div>
+      </pickup-availability-preview>
+    </template>
+  </pickup-availability>
+
+  <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
