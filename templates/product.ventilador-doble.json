@@ -1,1 +1,295 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}⭐⭐⭐⭐⭐ +4000 clientes satisfechos","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"text_TFXTdb":{"type":"text","disabled":true,"settings":{"text":"<strong>Calor insoportable aliviado 🌞<\/strong>","text_style":"body"}},"text_fbyPKt":{"type":"text","disabled":true,"settings":{"text":"<strong>Aire fresco al tiro ❄️<\/strong>","text_style":"body"}},"text_wJND8i":{"type":"text","disabled":true,"settings":{"text":"<strong>Comodidad en viajes 🚗<\/strong>","text_style":"body"}},"text_xRAVmG":{"type":"text","disabled":true,"settings":{"text":"<strong>Fácil instalación rapidita 🔧<\/strong>","text_style":"body"}},"text_FLD3MD":{"type":"text","disabled":true,"settings":{"text":"<strong>Rotación amplia bacán 💨<\/strong>","text_style":"body"}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","disabled":true,"settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","disabled":true,"settings":{}},"icon_with_text_dnEgR4":{"type":"icon-with-text","settings":{"layout":"vertical","icon_1":"none","heading_1":"<strong>Me salvó en un camping, los ventiladores giran y refrescan todo el espacio.<\/strong>                ⭐⭐⭐⭐⭐<strong>\"<\/strong>— Juan T., Valparaíso","icon_2":"none","heading_2":"","icon_3":"none","heading_3":""}},"buy_buttons":{"type":"buy_buttons","disabled":true,"settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"description":{"type":"description","settings":{}},"rating_hckycM":{"type":"rating","settings":{}},"share":{"type":"share","disabled":true,"settings":{"share_label":"Share"}}},"block_order":["vendor","title","text_TFXTdb","text_fbyPKt","text_wJND8i","text_xRAVmG","text_FLD3MD","price","variant_picker","quantity_selector","icon_with_text_dnEgR4","buy_buttons","description","rating_hckycM","share"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-1","media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"stacked","media_position":"left","image_zoom":"lightbox","mobile_thumbnails":"hide","hide_variants":true,"enable_video_looping":false,"padding_top":36,"padding_bottom":12}},"multicolumn_rBYpqP":{"type":"multicolumn","blocks":{"column_PTtFPt":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/download_-_2025-02-20T233105.774.webp","title":"— Camila P., Santiago","text":"<p>⭐⭐⭐⭐⭐<\/p><p><strong>Lo uso en la oficina y al tiro siento fresquito, bacán la niebla fina!<\/strong><br\/><\/p>","link_label":"","link":""}},"column_qcEjkn":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/download_-_2025-02-20T233248.278.webp","title":"— Sofía M., Concepción<strong>     <\/strong>⭐⭐⭐⭐⭐","text":"<p><strong>Con el control remoto lo prendo desde la cama, súper cómodo y silencioso.<\/strong><br\/><\/p>","link_label":"","link":""}},"column_U3JqCA":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/download_-_2025-02-20T233352.944.webp","title":"— Diego R., La Serena<strong> <\/strong>⭐⭐⭐⭐⭐","text":"<p><strong>Lo cargo con mi power bank y aguanta harto, ideal pa’ viajes largos.<\/strong><br\/><\/p>","link_label":"","link":""}},"column_CBLJ93":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/download_-_2025-02-20T233339.602.webp","title":"— Ignacio P., Iquique    <strong>            <\/strong>⭐⭐⭐⭐⭐","text":"<p><strong>No quería gastar demás, pero ahorra luz y refresca mejor que un ventilador caro.<\/strong><br\/><\/p>","link_label":"","link":""}},"column_ExAG6q":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/download_-_2025-02-20T233404.453.webp","title":"— Matías L., Antofagasta<strong>  <\/strong>  ⭐⭐⭐⭐⭐","text":"<p><strong>Pensé que no iba a enfriar tanto, pero con hielo el cambio es notorio, ¡vale cada peso!<\/strong><br\/><\/p>","link_label":"","link":""}},"column_6LFMCb":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/download_-_2025-02-20T233329.085.webp","title":"— Carla V., Viña del Mar<strong>                                      <\/strong>⭐⭐⭐⭐⭐","text":"<p>Me preocupaba que se echara a perder rápido, pero lleva meses y sigue como nuevo<\/p>","link_label":"","link":""}},"column_KLxU9x":{"type":"column","settings":{"title":"— Felipe C., Rancagua<strong>                                    <\/strong>⭐⭐⭐⭐⭐","text":"<p>Creí que iba a ser ruidoso como otros ventiladores, pero es ultra silencioso, ideal pa’ dormir.<\/p>","link_label":"","link":""}},"column_WJFCPG":{"type":"column","settings":{"title":"— Paula S., Puerto Montt<strong>                                      <\/strong>⭐⭐⭐⭐⭐","text":"<p>Dudé por el tamaño, pero es compacto y lo llevo a todos lados sin drama.<\/p>","link_label":"","link":""}},"column_zQ8km3":{"type":"column","settings":{"title":"— Lorena B., Chillán<strong>                                     <\/strong>⭐⭐⭐⭐⭐","text":"<p>Pensé que iba a ser complicado de usar, pero con el control remoto todo es fácil y rápido.<\/p>","link_label":"","link":""}}},"block_order":["column_PTtFPt","column_qcEjkn","column_U3JqCA","column_CBLJ93","column_ExAG6q","column_6LFMCb","column_KLxU9x","column_WJFCPG","column_zQ8km3"],"settings":{"title":"Reseñas de Clientes","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"primary","button_label":"Ver Más","button_link":"","color_scheme":"scheme-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"related-products":{"type":"related-products","disabled":true,"settings":{"heading":"También le puede interesar","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":28}}},"order":["main","multicolumn_rBYpqP","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}⭐⭐⭐⭐⭐ +4000 clientes satisfechos",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_TFXTdb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>Calor insoportable aliviado 🌞</strong>",
+            "text_style": "body"
+          }
+        },
+        "text_fbyPKt": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>Aire fresco al tiro ❄️</strong>",
+            "text_style": "body"
+          }
+        },
+        "text_wJND8i": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>Comodidad en viajes 🚗</strong>",
+            "text_style": "body"
+          }
+        },
+        "text_xRAVmG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>Fácil instalación rapidita 🔧</strong>",
+            "text_style": "body"
+          }
+        },
+        "text_FLD3MD": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>Rotación amplia bacán 💨</strong>",
+            "text_style": "body"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "icon_with_text_dnEgR4": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "none",
+            "heading_1": "<strong>Me salvó en un camping, los ventiladores giran y refrescan todo el espacio.</strong>                ⭐⭐⭐⭐⭐<strong>\"</strong>— Juan T., Valparaíso",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "rating_hckycM": {
+          "type": "rating",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "text_TFXTdb",
+        "text_fbyPKt",
+        "text_wJND8i",
+        "text_xRAVmG",
+        "text_FLD3MD",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "icon_with_text_dnEgR4",
+        "buy_buttons",
+        "description",
+        "rating_hckycM",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn_rBYpqP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PTtFPt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_-_2025-02-20T233105.774.webp",
+            "title": "— Camila P., Santiago",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Lo uso en la oficina y al tiro siento fresquito, bacán la niebla fina!</strong><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qcEjkn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_-_2025-02-20T233248.278.webp",
+            "title": "— Sofía M., Concepción<strong>     </strong>⭐⭐⭐⭐⭐",
+            "text": "<p><strong>Con el control remoto lo prendo desde la cama, súper cómodo y silencioso.</strong><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_U3JqCA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_-_2025-02-20T233352.944.webp",
+            "title": "— Diego R., La Serena<strong> </strong>⭐⭐⭐⭐⭐",
+            "text": "<p><strong>Lo cargo con mi power bank y aguanta harto, ideal pa’ viajes largos.</strong><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CBLJ93": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_-_2025-02-20T233339.602.webp",
+            "title": "— Ignacio P., Iquique    <strong>            </strong>⭐⭐⭐⭐⭐",
+            "text": "<p><strong>No quería gastar demás, pero ahorra luz y refresca mejor que un ventilador caro.</strong><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ExAG6q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_-_2025-02-20T233404.453.webp",
+            "title": "— Matías L., Antofagasta<strong>  </strong>  ⭐⭐⭐⭐⭐",
+            "text": "<p><strong>Pensé que no iba a enfriar tanto, pero con hielo el cambio es notorio, ¡vale cada peso!</strong><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6LFMCb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/download_-_2025-02-20T233329.085.webp",
+            "title": "— Carla V., Viña del Mar<strong>                                      </strong>⭐⭐⭐⭐⭐",
+            "text": "<p>Me preocupaba que se echara a perder rápido, pero lleva meses y sigue como nuevo</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KLxU9x": {
+          "type": "column",
+          "settings": {
+            "title": "— Felipe C., Rancagua<strong>                                    </strong>⭐⭐⭐⭐⭐",
+            "text": "<p>Creí que iba a ser ruidoso como otros ventiladores, pero es ultra silencioso, ideal pa’ dormir.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WJFCPG": {
+          "type": "column",
+          "settings": {
+            "title": "— Paula S., Puerto Montt<strong>                                      </strong>⭐⭐⭐⭐⭐",
+            "text": "<p>Dudé por el tamaño, pero es compacto y lo llevo a todos lados sin drama.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zQ8km3": {
+          "type": "column",
+          "settings": {
+            "title": "— Lorena B., Chillán<strong>                                     </strong>⭐⭐⭐⭐⭐",
+            "text": "<p>Pensé que iba a ser complicado de usar, pero con el control remoto todo es fácil y rápido.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PTtFPt",
+        "column_qcEjkn",
+        "column_U3JqCA",
+        "column_CBLJ93",
+        "column_ExAG6q",
+        "column_6LFMCb",
+        "column_KLxU9x",
+        "column_WJFCPG",
+        "column_zQ8km3"
+      ],
+      "settings": {
+        "title": "Reseñas de Clientes",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Ver Más",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "También le puede interesar",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_rBYpqP",
+    "related-products"
+  ]
+}
