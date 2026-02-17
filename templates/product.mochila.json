@@ -244,6 +244,7 @@
         "column_WJFCPG",
         "column_zQ8km3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Reseñas de Clientes",
         "heading_size": "h1",
