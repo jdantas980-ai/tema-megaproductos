@@ -1,1 +1,342 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}⭐⭐⭐⭐⭐ +4000 clientes satisfechos","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"text_TFXTdb":{"type":"text","settings":{"text":"<strong>✅ Olla portátil ultraligera<\/strong>","text_style":"body"}},"text_fbyPKt":{"type":"text","settings":{"text":"✅ <strong>Fríe y hierve multifunción<\/strong>","text_style":"body"}},"text_wJND8i":{"type":"text","settings":{"text":"✅ <strong>Ideal camping aventuras<\/strong>","text_style":"body"}},"text_xRAVmG":{"type":"text","settings":{"text":"<strong>✅ Liviana práctica resistente<\/strong>","text_style":"body"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"icon_with_text_iW6yUr":{"type":"icon-with-text","settings":{"layout":"horizontal","icon_1":"heart","image_1":"shopify:\/\/shop_images\/delivery_1.webp","heading_1":"ENVÍO <strong>GRATIS<\/strong>","icon_2":"return","image_2":"shopify:\/\/shop_images\/moneyback_1.webp","heading_2":"PAGA AL <strong>RECIBIR<\/strong>","icon_3":"truck","image_3":"shopify:\/\/shop_images\/payment_1.webp","heading_3":"SATISFACCIÓN <strong>GARANTIZADA<\/strong>"}},"icon_with_text_dnEgR4":{"type":"icon-with-text","settings":{"layout":"vertical","icon_1":"none","heading_1":"¡Increíble! Nuestra olla portátil ultraligera superó mis expectativas. En el camping freí papas, herví agua y guisé rico, todo en una sola olla sin esfuerzo. ¡Súper liviana y práctica, ideal pa'l cerro o la playa! La recomiendo caleta             ⭐⭐⭐⭐⭐- Juan C.","icon_2":"none","heading_2":"","icon_3":"none","heading_3":""}},"buy_buttons":{"type":"buy_buttons","disabled":true,"settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"text_weCQrg":{"type":"text","disabled":true,"settings":{"text":"Bloque de texto","text_style":"body"}},"description":{"type":"description","settings":{}},"rating_hckycM":{"type":"rating","settings":{}},"share":{"type":"share","disabled":true,"settings":{"share_label":"Share"}}},"block_order":["vendor","title","text_TFXTdb","text_fbyPKt","text_wJND8i","text_xRAVmG","quantity_selector","price","variant_picker","icon_with_text_iW6yUr","icon_with_text_dnEgR4","buy_buttons","text_weCQrg","description","rating_hckycM","share"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-1","media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"stacked","media_position":"left","image_zoom":"lightbox","mobile_thumbnails":"hide","hide_variants":true,"enable_video_looping":false,"padding_top":36,"padding_bottom":12}},"multicolumn_rBYpqP":{"type":"multicolumn","blocks":{"column_PTtFPt":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/hidrolavadora_pila.webp","title":"Carlos\/Santiago","text":"<p>⭐⭐⭐⭐⭐<\/p><p>Absolutamente increíble. Vivo en un piso sin grifo exterior, así que esto cambia las reglas del juego. Lavó el coche cuando llegó e hizo un trabajo muy bueno. No me malinterpreten, no es tan potente como una lavadora a presión de tamaño completo, pero definitivamente ayuda mucho.<\/p>","link_label":"","link":""}},"column_qcEjkn":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/hidroalvadora_barata.webp","title":"María R.,<strong>Viña del Mar<\/strong> ⭐⭐⭐⭐⭐","text":"<p><strong>Adiós a los cables!<\/strong> Esta hidrolavadora es potente y práctica. ¡La batería dura bastante!<\/p>","link_label":"","link":""}},"column_U3JqCA":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/hidrolavadora_pila_2.webp","title":"Pedro L.,<strong>Concepción<\/strong> ⭐⭐⭐⭐⭐","text":"<p>Limpieza profunda en cualquier lugar!<strong> <\/strong>Perfecta para el coche, la terraza y hasta la bicicleta. ¡Muy versátil!<\/p>","link_label":"","link":""}},"column_CBLJ93":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/br-11134103-7r98o-lxcnh0soujcm41.webp","title":"Javier G., <strong>Puerto Montt <\/strong>⭐⭐⭐⭐⭐","text":"<p>El producto llegó tal y como se anunciaba, con todos los accesorios, batería y cargador, aún voy a probarlo y volveré por aquí a dejar una descripción de su funcionamiento para ayudar a futuros compradores, pero por ahora es de lo mejor, enhorabuena al vendedor, envío y entrega rápidos, bien empaquetado.<\/p>","link_label":"","link":""}},"column_EeW9ib":{"type":"column","settings":{"title":"Carolina, <strong>V. de Temuco<\/strong> ⭐⭐⭐⭐⭐","text":"<p>Hace mucho más fácil mantener el exterior de la casa impecable. Uso una batería mientras la otra se carga y no pierdo tiempo. Es práctica, potente y eficiente<\/p>","link_label":"","link":""}},"column_DfM6zJ":{"type":"column","settings":{"title":"<strong>Fernanda S., de Rancagua<\/strong>       ⭐⭐⭐⭐⭐","text":"<p>Nunca había usado una hidrolavadora antes, pero esta es muy fácil de manejar. Solo conectas la batería y listo. Tiene la potencia necesaria para eliminar la suciedad más difícil.<\/p>","link_label":"","link":""}},"column_LakaBb":{"type":"column","settings":{"title":"Carlos L de La Serena. ⭐⭐⭐⭐⭐","text":"<p>Compré esta hidrolavadora para limpiar mi terraza y la piscina. Me sorprendió lo rápido que elimina la suciedad. En minutos, todo queda impecable. Definitivamente recomendable<\/p>","link_label":"","link":""}},"column_jNiKWM":{"type":"column","settings":{"title":"<strong>Andrea G. de Antofagasta <\/strong>⭐⭐⭐⭐⭐","text":"<p>La uso para limpiar mi bicicleta, el auto y hasta la terraza. El diseño portátil y la potencia de 48V son perfectos para todo tipo de superficies<\/p>","link_label":"","link":""}},"column_PppMUP":{"type":"column","settings":{"title":"<strong>Marcela P. de Valparaíso <\/strong>⭐⭐⭐⭐⭐","text":"<p>Lo que más me gusta es que viene con dos baterías. Puedo limpiar por más tiempo sin tener que preocuparme de quedarme sin carga. La hidrolavadora es liviana y fácil de usar<\/p>","link_label":"","link":""}}},"block_order":["column_PTtFPt","column_qcEjkn","column_U3JqCA","column_CBLJ93","column_EeW9ib","column_DfM6zJ","column_LakaBb","column_jNiKWM","column_PppMUP"],"disabled":true,"settings":{"title":"Reseñas de Clientes","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"primary","button_label":"Ver Más","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"related-products":{"type":"related-products","settings":{"heading":"También le puede interesar","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":28}},"featured_collection_JHza4P":{"type":"featured-collection","settings":{"title":"Colección destacada","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"frontpage","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["main","multicolumn_rBYpqP","related-products","featured_collection_JHza4P"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}⭐⭐⭐⭐⭐ +4000 clientes satisfechos",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_TFXTdb": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>✅ Olla portátil ultraligera</strong>",
+            "text_style": "body"
+          }
+        },
+        "text_fbyPKt": {
+          "type": "text",
+          "settings": {
+            "text": "✅ <strong>Fríe y hierve multifunción</strong>",
+            "text_style": "body"
+          }
+        },
+        "text_wJND8i": {
+          "type": "text",
+          "settings": {
+            "text": "✅ <strong>Ideal camping aventuras</strong>",
+            "text_style": "body"
+          }
+        },
+        "text_xRAVmG": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>✅ Liviana práctica resistente</strong>",
+            "text_style": "body"
+          }
+        },
+        "text_xcKHT3": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>🎁 Mini Estufa De Gas Portátil - ¡GRATIS!</strong>",
+            "text_style": "body"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "icon_with_text_iW6yUr": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify://shop_images/delivery_1.webp",
+            "heading_1": "ENVÍO <strong>GRATIS</strong>",
+            "icon_2": "return",
+            "image_2": "shopify://shop_images/moneyback_1.webp",
+            "heading_2": "PAGA AL <strong>RECIBIR</strong>",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/payment_1.webp",
+            "heading_3": "SATISFACCIÓN <strong>GARANTIZADA</strong>"
+          }
+        },
+        "icon_with_text_dnEgR4": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "none",
+            "heading_1": "¡Increíble! Nuestra olla portátil ultraligera superó mis expectativas. En el camping freí papas, herví agua y guisé rico, todo en una sola olla sin esfuerzo. ¡Súper liviana y práctica, ideal pa'l cerro o la playa! La recomiendo caleta             ⭐⭐⭐⭐⭐- Juan C.",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_weCQrg": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Bloque de texto",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "rating_hckycM": {
+          "type": "rating",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "text_TFXTdb",
+        "text_fbyPKt",
+        "text_wJND8i",
+        "text_xRAVmG",
+        "text_xcKHT3",
+        "quantity_selector",
+        "price",
+        "variant_picker",
+        "icon_with_text_iW6yUr",
+        "icon_with_text_dnEgR4",
+        "buy_buttons",
+        "text_weCQrg",
+        "description",
+        "rating_hckycM",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn_rBYpqP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PTtFPt": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/hidrolavadora_pila.webp",
+            "title": "Carlos/Santiago",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p>Absolutamente increíble. Vivo en un piso sin grifo exterior, así que esto cambia las reglas del juego. Lavó el coche cuando llegó e hizo un trabajo muy bueno. No me malinterpreten, no es tan potente como una lavadora a presión de tamaño completo, pero definitivamente ayuda mucho.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qcEjkn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hidroalvadora_barata.webp",
+            "title": "María R.,<strong>Viña del Mar</strong> ⭐⭐⭐⭐⭐",
+            "text": "<p><strong>Adiós a los cables!</strong> Esta hidrolavadora es potente y práctica. ¡La batería dura bastante!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_U3JqCA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hidrolavadora_pila_2.webp",
+            "title": "Pedro L.,<strong>Concepción</strong> ⭐⭐⭐⭐⭐",
+            "text": "<p>Limpieza profunda en cualquier lugar!<strong> </strong>Perfecta para el coche, la terraza y hasta la bicicleta. ¡Muy versátil!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CBLJ93": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/br-11134103-7r98o-lxcnh0soujcm41.webp",
+            "title": "Javier G., <strong>Puerto Montt </strong>⭐⭐⭐⭐⭐",
+            "text": "<p>El producto llegó tal y como se anunciaba, con todos los accesorios, batería y cargador, aún voy a probarlo y volveré por aquí a dejar una descripción de su funcionamiento para ayudar a futuros compradores, pero por ahora es de lo mejor, enhorabuena al vendedor, envío y entrega rápidos, bien empaquetado.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EeW9ib": {
+          "type": "column",
+          "settings": {
+            "title": "Carolina, <strong>V. de Temuco</strong> ⭐⭐⭐⭐⭐",
+            "text": "<p>Hace mucho más fácil mantener el exterior de la casa impecable. Uso una batería mientras la otra se carga y no pierdo tiempo. Es práctica, potente y eficiente</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DfM6zJ": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Fernanda S., de Rancagua</strong>       ⭐⭐⭐⭐⭐",
+            "text": "<p>Nunca había usado una hidrolavadora antes, pero esta es muy fácil de manejar. Solo conectas la batería y listo. Tiene la potencia necesaria para eliminar la suciedad más difícil.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LakaBb": {
+          "type": "column",
+          "settings": {
+            "title": "Carlos L de La Serena. ⭐⭐⭐⭐⭐",
+            "text": "<p>Compré esta hidrolavadora para limpiar mi terraza y la piscina. Me sorprendió lo rápido que elimina la suciedad. En minutos, todo queda impecable. Definitivamente recomendable</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jNiKWM": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Andrea G. de Antofagasta </strong>⭐⭐⭐⭐⭐",
+            "text": "<p>La uso para limpiar mi bicicleta, el auto y hasta la terraza. El diseño portátil y la potencia de 48V son perfectos para todo tipo de superficies</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PppMUP": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Marcela P. de Valparaíso </strong>⭐⭐⭐⭐⭐",
+            "text": "<p>Lo que más me gusta es que viene con dos baterías. Puedo limpiar por más tiempo sin tener que preocuparme de quedarme sin carga. La hidrolavadora es liviana y fácil de usar</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PTtFPt",
+        "column_qcEjkn",
+        "column_U3JqCA",
+        "column_CBLJ93",
+        "column_EeW9ib",
+        "column_DfM6zJ",
+        "column_LakaBb",
+        "column_jNiKWM",
+        "column_PppMUP"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Reseñas de Clientes",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Ver Más",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "También le puede interesar",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "featured_collection_JHza4P": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Colección destacada",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_rBYpqP",
+    "related-products",
+    "featured_collection_JHza4P"
+  ]
+}
