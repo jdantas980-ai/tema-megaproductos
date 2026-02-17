@@ -51,6 +51,13 @@
             "text_style": "body"
           }
         },
+        "text_XLG4zT": {
+          "type": "text",
+          "settings": {
+            "text": "✅ <strong>Seguridad contra robos</strong>",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -109,6 +116,7 @@
         "text_fbyPKt",
         "text_wJND8i",
         "text_xRAVmG",
+        "text_XLG4zT",
         "price",
         "variant_picker",
         "quantity_selector",
